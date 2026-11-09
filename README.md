@@ -30,3 +30,6 @@ Dodano zdjęcia przygotowywania posiłków i kompozycji przy oknie oraz wyizolow
 ## Opinie i oznaczenia sekcji
 Źródło: https://www.facebook.com/profile.php?id=100089357919979&sk=reviews
 Szczegółowe odnośniki i fragmenty: reviews-sources.json. Usunięto numery poprzedzające nazwy sekcji i podpisy galerii.
+
+## Karty ofert
+Sześć różnych zdjęć (portret Karoliny, śniadanie, koszyk warzyw, przygotowane posiłki, laptop, planowanie nawyków), bez numeracji. Subtelny efekt najechania i równoważny fokus klawiatury: kolor tła, uniesienie, powiększenie fotografii i wyróżnienie strzałki. Ograniczenie ruchu jest respektowane. Trzy dodatkowe zdjęcia dekoracyjne wygenerowane na potrzeby projektu, bez deklarowania konkretnych usług lub jadłospisów.
