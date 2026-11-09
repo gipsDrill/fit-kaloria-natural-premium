@@ -100,32 +100,21 @@ html{scroll-padding-top:110px}body{scroll-margin-top:0}
 .natural .portrait-vegetables{display:none;pointer-events:none}
 @media(max-width:850px){.natural .portrait-vegetables{display:block;position:absolute;width:105px;height:auto;left:-8px;right:auto;bottom:100px;z-index:1;transform:rotate(-12deg)}}
 @media(max-width:600px){.natural .portrait-vegetables{width:100px;bottom:96px}}
-/* Right-hand food accents stay outside the copy and behind the portrait. */
-.natural .right-food{position:absolute;height:auto;pointer-events:none;user-select:none}
-.natural .right-food--edge{width:clamp(180px,13vw,270px);right:-58px;z-index:0}
-.natural .right-food--edge.right-food--avocado{top:80px;transform:rotate(-15deg)}
-.natural .right-food--edge.right-food--nuts{bottom:55px;transform:rotate(12deg)}
-.natural .right-food--portrait{display:none}
-@media(max-width:1500px){
- .natural .right-food--edge{display:none}
+/* Avocado joins the existing left-hand food cluster, behind the plate. */
+.natural .left-avocado{position:absolute;height:auto;pointer-events:none;user-select:none;right:auto;transform:rotate(18deg)}
+.natural .left-avocado--edge{width:175px;left:35px;bottom:265px;z-index:0}
+.natural .left-avocado--portrait{display:none}
+@media(max-width:1700px){
+ .natural .left-avocado--edge{display:none}
  .natural .hero-portrait{isolation:isolate}
  .natural .hero-portrait .organic-shape{z-index:0}
  .natural .hero-portrait .cutout{z-index:2}
  .natural .hero-portrait .portrait-label,.natural .hero-portrait .handwritten{z-index:3}
- .natural .right-food--portrait{display:block;width:150px;right:-65px;z-index:1}
- .natural .right-food--portrait.right-food--avocado{top:-20px;transform:rotate(-15deg)}
- .natural .right-food--portrait.right-food--nuts{bottom:45px;transform:rotate(12deg)}
+ .natural .left-avocado--portrait{display:block;width:125px;left:0;bottom:115px;z-index:1}
 }
-@media(max-width:850px){
- .natural .right-food--portrait{width:130px;right:-35px}
- .natural .right-food--portrait.right-food--avocado{top:27%}
- .natural .right-food--portrait.right-food--nuts{bottom:28px}
-}
-@media(max-width:600px){
- .natural .right-food--portrait{width:112px;right:-38px}
- .natural .right-food--portrait.right-food--avocado{top:32%}
- .natural .right-food--portrait.right-food--nuts{bottom:22px}
-}
+@media(max-width:850px){.natural .left-avocado--portrait{width:100px;left:-12px;bottom:140px}}
+@media(max-width:600px){.natural .left-avocado--portrait{width:95px;left:-12px;bottom:134px}}
+
 
 /* Vector arrows avoid iOS emoji substitution and remain in the link's text color. */
 .ui-arrow{display:inline-block;width:1em;height:1em;min-width:1em;flex:none;vertical-align:-.12em;overflow:visible;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
