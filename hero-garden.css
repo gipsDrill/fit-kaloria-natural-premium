@@ -29,4 +29,4 @@
 .natural .natural-hero--ogrod{--concept-photo:image-set(url("hero-garden.jpg") 1x,url("hero-garden-large.jpg") 2x)}
 @media(max-width:700px){.natural .natural-hero--ogrod{--concept-photo:url("hero-garden-mobile.jpg")}.natural .natural-hero--ogrod .hero-portrait .cutout{left:-43%}}
 
-.hero-dessert{position:absolute;height:auto;pointer-events:none;transform:translate(-50%,-94%);z-index:1}.hero-dessert[hidden]{display:none}
+.hero-dessert{position:absolute;height:auto;pointer-events:none;transform:translate(-50%,-89%);z-index:1}.hero-dessert[hidden]{display:none}

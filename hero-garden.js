@@ -7,7 +7,7 @@
   const w=parent.clientWidth,h=parent.clientHeight;
   const photoHeight=mobile?h:Math.max(h,w/1.5),photoWidth=photoHeight*1.5;
   const xOffset=mobile?w+20-photoWidth:(w-photoWidth)/2,yOffset=mobile?0:(h-photoHeight)*.45;
-  dessert.style.width=(photoWidth*.07)+'px';
+  dessert.style.width=(photoWidth*.078)+'px';
   dessert.style.left=(xOffset+photoWidth*.82)+'px';
   dessert.style.top=(yOffset+photoHeight*.63)+'px';
   dessert.hidden=false;
