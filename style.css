@@ -37,6 +37,9 @@
 /* Keep the decorative fruit plate inside the portrait area on narrower screens. */
 .portrait-breakfast{display:none;pointer-events:none}@media(max-width:1500px){.natural .hero-breakfast{display:none}.portrait-breakfast{display:block;position:absolute;width:clamp(130px,14vw,195px);height:auto;left:0;bottom:10px;z-index:3;filter:drop-shadow(3px 10px 10px #51432120);transform:rotate(-12deg)}}@media(min-width:601px) and (max-width:850px){.portrait-breakfast{width:145px;bottom:140px}}@media(max-width:600px){.portrait-breakfast{left:auto;right:-5px;bottom:105px;width:145px}}
 
+/* Decorative plate stays below and behind the portrait on narrow screens. */
+@media(max-width:850px){.natural .hero-portrait{isolation:isolate}.natural .hero-portrait .organic-shape{z-index:0}.natural .hero-portrait .cutout{z-index:2}.natural .hero-portrait .portrait-label,.natural .hero-portrait .handwritten{z-index:3}.natural .portrait-breakfast{z-index:1;width:110px;bottom:12px;left:-8px;right:auto}}@media(max-width:600px){.natural .portrait-breakfast{width:105px;left:auto;right:-10px;bottom:20px}}
+
 /* Updated service photographs fill the card without side panels. */
 .natural .service-visual-2:before{display:none}.natural .service-card .service-visual-2 img,.natural .service-card .service-visual-0 img{object-fit:cover;object-position:center}
 
