@@ -35,3 +35,11 @@ Szczegółowe odnośniki i fragmenty: reviews-sources.json. Usunięto numery pop
 Sześć różnych zdjęć (portret Karoliny, miarka z jabłkiem, analiza żywienia, przygotowane posiłki, ilustracja konsultacji online, planowanie nawyków), bez numeracji. Subtelny efekt najechania i równoważny fokus klawiatury: kolor tła, uniesienie, powiększenie fotografii i wyróżnienie strzałki. Ograniczenie ruchu jest respektowane. Trzy dodatkowe zdjęcia dekoracyjne wygenerowane na potrzeby projektu, bez deklarowania konkretnych usług lub jadłospisów.
 
 Fotografia laptopa jest ilustracyjną sceną wygenerowaną z dostarczonym portretem Karoliny na ekranie, a nie zapisem rzeczywistej konsultacji. Zdjęcia analizy żywienia i redukcji masy ciała także mają charakter ilustracyjny.
+
+## Aktualizacja zdjęć i interakcji
+Analiza nawyków: ilustracyjny tygodniowy dzienniczek z zaznaczeniami. Konsultacje online: na ekranie laptopa portret w fioletowym garniturze. W Editorial kontakt także wykorzystuje fioletowy portret, odmienny od czerwonego w sekcji O mnie. Rozwinięcie usługi wybiera właściwe zdjęcie obok i zamyka pozostałe pozycje; na telefonie zdjęcie jest wewnątrz opisu. Zmiana zdjęcia uwzględnia ograniczenie ruchu i szybkie przełączanie pozycji.
+
+Zdjęcie karolina-konsultacja.jpg zostało dostarczone przez zamawiającego 9 listopada 2026. Użyto go przy dietetyce klinicznej; nie stanowi podstawy do dopisania dodatkowych usług lub kwalifikacji.
+
+## Logo
+Znak z granatową sylwetką i pięcioma zielonymi kropkami przygotowano w większej rozdzielczości i z przezroczystym tłem na podstawie przesłanego wzoru. Pliki logo-fit-kaloria.png i favicon-logo.png zastępują wcześniejszy symbol liści.
