@@ -99,7 +99,7 @@ html{scroll-padding-top:110px}body{scroll-margin-top:0}
 @media(max-width:1500px){.natural .hero-vegetables{display:none}}
 .natural .portrait-vegetables{display:none;pointer-events:none}
 @media(max-width:850px){.natural .portrait-vegetables{display:block;position:absolute;width:105px;height:auto;left:-8px;right:auto;bottom:100px;z-index:1;transform:rotate(-12deg)}}
-@media(max-width:600px){.natural .portrait-vegetables{width:100px;bottom:96px}}
+@media(max-width:600px){.natural .portrait-vegetables{width:100px;bottom:156px}}
 /* Avocado joins the existing left-hand food cluster, behind the plate. */
 .natural .left-avocado{position:absolute;height:auto;pointer-events:none;user-select:none;right:auto;transform:rotate(18deg)}
 .natural .left-avocado--edge{width:175px;left:35px;bottom:265px;z-index:0}
@@ -113,7 +113,7 @@ html{scroll-padding-top:110px}body{scroll-margin-top:0}
  .natural .left-avocado--portrait{display:block;width:125px;left:0;bottom:115px;z-index:1}
 }
 @media(max-width:850px){.natural .left-avocado--portrait{width:100px;left:-12px;bottom:140px}}
-@media(max-width:600px){.natural .left-avocado--portrait{width:95px;left:-12px;bottom:134px}}
+@media(max-width:600px){.natural .left-avocado--portrait{width:95px;left:-12px;bottom:194px}.natural .portrait-breakfast{bottom:72px}}
 
 
 /* Vector arrows avoid iOS emoji substitution and remain in the link's text color. */
