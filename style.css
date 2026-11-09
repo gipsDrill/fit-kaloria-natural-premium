@@ -25,3 +25,6 @@
 }
 @media(hover:none){.natural .service-card:hover{transform:none;box-shadow:0 8px 24px #76664a06}.natural .service-card:hover .service-visual img{transform:scale(1)}.natural .service-card:hover .service-visual-1 img{transform:scale(1.08) translateY(10px)}}
 @media(prefers-reduced-motion:reduce){.natural .service-card:focus-visible,.natural .service-card:hover,.natural .service-card:is(:hover,:focus-visible)>svg.icon,.natural .service-card:is(:hover,:focus-visible) .card-link b{transform:none}.natural .service-card:is(:hover,:focus-visible) .service-visual img{transform:scale(1)}.natural .service-card:is(:hover,:focus-visible) .service-visual-1 img{transform:scale(1.08) translateY(10px)}}
+
+/* Subject-matched photos: all six are now photographic crops */
+.natural .service-card .service-visual-1 img{object-fit:cover;transform:none;object-position:center 60%}.natural .service-card .service-visual-4 img{object-position:center}.natural .service-card:focus-visible .service-visual-1 img{transform:scale(1.065)}@media(hover:hover) and (pointer:fine){.natural .service-card:hover .service-visual-1 img{transform:scale(1.065)}}@media(hover:none),(prefers-reduced-motion:reduce){.natural .service-card:is(:hover,:focus-visible) .service-visual-1 img{transform:none}}

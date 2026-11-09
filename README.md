@@ -32,4 +32,6 @@ Dodano zdjęcia przygotowywania posiłków i kompozycji przy oknie oraz wyizolow
 Szczegółowe odnośniki i fragmenty: reviews-sources.json. Usunięto numery poprzedzające nazwy sekcji i podpisy galerii.
 
 ## Karty ofert
-Sześć różnych zdjęć (portret Karoliny, śniadanie, koszyk warzyw, przygotowane posiłki, laptop, planowanie nawyków), bez numeracji. Subtelny efekt najechania i równoważny fokus klawiatury: kolor tła, uniesienie, powiększenie fotografii i wyróżnienie strzałki. Ograniczenie ruchu jest respektowane. Trzy dodatkowe zdjęcia dekoracyjne wygenerowane na potrzeby projektu, bez deklarowania konkretnych usług lub jadłospisów.
+Sześć różnych zdjęć (portret Karoliny, miarka z jabłkiem, analiza żywienia, przygotowane posiłki, ilustracja konsultacji online, planowanie nawyków), bez numeracji. Subtelny efekt najechania i równoważny fokus klawiatury: kolor tła, uniesienie, powiększenie fotografii i wyróżnienie strzałki. Ograniczenie ruchu jest respektowane. Trzy dodatkowe zdjęcia dekoracyjne wygenerowane na potrzeby projektu, bez deklarowania konkretnych usług lub jadłospisów.
+
+Fotografia laptopa jest ilustracyjną sceną wygenerowaną z dostarczonym portretem Karoliny na ekranie, a nie zapisem rzeczywistej konsultacji. Zdjęcia analizy żywienia i redukcji masy ciała także mają charakter ilustracyjny.
