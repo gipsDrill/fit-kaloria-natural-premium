@@ -34,6 +34,9 @@
 /* Supplied navy-and-lime brand mark */
 .brand{color:#124e75;gap:12px}.brand .brand-mark{width:40px;height:60px;object-fit:contain;flex-shrink:0}.brand small{color:#63724c}.editorial-logo{display:flex;align-items:center;gap:13px}.editorial-logo .brand-mark{width:46px;height:64px;padding:5px;background:#fbfaf2;border-radius:4px;object-fit:contain;flex-shrink:0}.editorial-logo>div{font:inherit;letter-spacing:inherit}.editorial-menu>.brand-mark{width:55px;height:80px;object-fit:contain;margin-bottom:22px}.editorial-menu .brand-mark{width:55px;height:80px;object-fit:contain;margin-bottom:22px}@media(max-width:680px){.brand .brand-mark{width:34px;height:50px}.brand{gap:9px}.editorial-logo{gap:7px}.editorial-logo .brand-mark{width:33px;height:47px;padding:4px}.editorial-logo>div{font-size:18px;letter-spacing:2px}.editorial-logo span{font-size:6px;letter-spacing:1.8px}}
 
+/* Keep the decorative fruit plate inside the portrait area on narrower screens. */
+.portrait-breakfast{display:none;pointer-events:none}@media(max-width:1500px){.natural .hero-breakfast{display:none}.portrait-breakfast{display:block;position:absolute;width:clamp(130px,14vw,195px);height:auto;left:0;bottom:10px;z-index:3;filter:drop-shadow(3px 10px 10px #51432120);transform:rotate(-12deg)}}@media(min-width:601px) and (max-width:850px){.portrait-breakfast{width:145px;bottom:140px}}@media(max-width:600px){.portrait-breakfast{left:auto;right:-5px;bottom:105px;width:145px}}
+
 /* Updated service photographs fill the card without side panels. */
 .natural .service-visual-2:before{display:none}.natural .service-card .service-visual-2 img,.natural .service-card .service-visual-0 img{object-fit:cover;object-position:center}
 
