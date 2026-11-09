@@ -27,6 +27,6 @@
 @media(max-width:380px){.natural .hero-portrait{height:420px}.natural .hero-portrait::before{height:310px}.natural .hero-portrait .cutout{left:-35%}.natural .hero-portrait .portrait-label{font-size:17px}}
 
 .natural .natural-hero--ogrod{--concept-photo:image-set(url("hero-garden.jpg") 1x,url("hero-garden-large.jpg") 2x)}
-@media(max-width:700px){.natural .natural-hero--ogrod{--concept-photo:url("hero-garden-mobile.jpg")}}
+@media(max-width:700px){.natural .natural-hero--ogrod{--concept-photo:url("hero-garden-mobile.jpg")}.natural .natural-hero--ogrod .hero-portrait .cutout{left:-43%}}
 
 .hero-dessert{position:absolute;height:auto;pointer-events:none;transform:translate(-50%,-94%);z-index:1}.hero-dessert[hidden]{display:none}
