@@ -97,6 +97,9 @@ html{scroll-padding-top:110px}body{scroll-margin-top:0}
 /* Food decoration occupies only the unused outer margin above the fruit bowl. */
 .natural .hero-vegetables{position:absolute;pointer-events:none;width:clamp(170px,13vw,280px);height:auto;left:-35px;bottom:360px;z-index:0;transform:rotate(-12deg)}
 @media(max-width:1500px){.natural .hero-vegetables{display:none}}
+.natural .portrait-vegetables{display:none;pointer-events:none}
+@media(max-width:850px){.natural .portrait-vegetables{display:block;position:absolute;width:105px;height:auto;left:-8px;right:auto;bottom:100px;z-index:1;transform:rotate(-12deg)}}
+@media(max-width:600px){.natural .portrait-vegetables{width:100px;bottom:96px}}
 
 /* Vector arrows avoid iOS emoji substitution and remain in the link's text color. */
 .ui-arrow{display:inline-block;width:1em;height:1em;min-width:1em;flex:none;vertical-align:-.12em;overflow:visible;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
